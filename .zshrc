@@ -5,7 +5,7 @@ export ZSH=/Users/jordi/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -87,3 +87,12 @@ alias wms="cd ~/Develop/mobile_service"
 alias g="gulp"
 alias ics="ionic serve"
 alias ira="ionic run android"
+alias soz="source ~/.zshrc"
+
+# DEVELOPMENT
+# ANDROID SDK
+export ANDROID_HOME=/usr/local/opt/android-sdk
+# node with nvm
+export NVM_DIR="/Users/jordi/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+nvm use stable # load the stable version
