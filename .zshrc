@@ -85,14 +85,22 @@ export LANG=en_US.UTF-8
 alias wma="cd ~/Develop/wattio-mobile-app"
 alias wms="cd ~/Develop/mobile_service"
 alias g="gulp"
+alias gbd="gulp build-dev"
+alias gbpp="gulp build-preprod"
+alias gbp="gulp build-prod"
 alias ics="ionic serve"
 alias ira="ionic run android"
 alias soz="source ~/.zshrc"
+alias dp="cd ~/Dropbox"
 
-# DEVELOPMENT
-# ANDROID SDK
+# development
+# set development email
+export DEVELOPMENT_EMAIL=jordi@wattio.com
+# android sdk
 export ANDROID_HOME=/usr/local/opt/android-sdk
 # node with nvm
 export NVM_DIR="/Users/jordi/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-nvm use stable # load the stable version
+# load nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+# use certain version of node
+nvm use v0.12.7
