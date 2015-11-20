@@ -90,8 +90,6 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias wma="cd ~/Develop/wattio-mobile-app"
-alias wms="cd ~/Develop/mobile_service"
 alias g="gulp"
 alias gbd="gulp build-dev"
 alias gbpp="gulp build-preprod"
@@ -103,7 +101,7 @@ alias dp="cd ~/Dropbox"
 
 # development
 # set development email
-export DEVELOPMENT_EMAIL=jordi@wattio.com
+export DEVELOPMENT_EMAIL=foo@bat.com
 # android sdk
 export ANDROID_HOME=/usr/local/opt/android-sdk
 # node with nvm
