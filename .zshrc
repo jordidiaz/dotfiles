@@ -100,8 +100,6 @@ alias soz="source ~/.zshrc"
 alias dp="cd ~/Dropbox"
 
 # development
-# set development email
-export DEVELOPMENT_EMAIL=foo@bat.com
 # android sdk
 export ANDROID_HOME=/usr/local/opt/android-sdk
 # node with nvm
