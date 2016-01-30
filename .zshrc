@@ -106,5 +106,5 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 export NVM_DIR="/Users/jordi/.nvm"
 # load nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-# use certain version of node
-nvm use v0.12.7
+# use the stable version of node
+nvm use stable
