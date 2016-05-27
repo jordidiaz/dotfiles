@@ -99,6 +99,9 @@ alias ira="ionic run android"
 alias soz="source ~/.zshrc"
 alias dp="cd ~/Dropbox"
 
+#disable auto correct
+unsetopt correct_all
+
 # development
 # android sdk
 export ANDROID_HOME=/usr/local/opt/android-sdk
